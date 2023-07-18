@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <title>Alura Challenge ONE - Encriptador</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="reset.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="img/Alura_logo.svg">
+  </head>
+
+  <body>
+    <header>
+      <img class="logo" src="img/Alura_logo.svg" alt="Logo de Alura">
+      <h1 class="main_text">Alura Challenge ONE - Encriptador de Texto</h1>
+    </header>
+  
+    <main>
+      
+      <section class="program_section">
+        <div class="text_container">
+          <textarea class="encripter_box" placeholder="Ingrese el texto aqui"></textarea>
+        </div>
+        <div class="alert_container">
+          <img src="img/alert.svg" alt="Información de alerta">
+          <p class="alert_text">Solo letras minúsculas y sin acentos</p>
+        </div>
+        <div class="buttons_container">
+          <input type="button" class="encrypt_button" value="Encriptar">
+          <input type="button" class="dencrypt_button" value="Desencriptar">
+        </div>
+      </section>
+
+      <section class="result_section">
+        <div class="encripter_logo_container">
+          <img src="img/Encripter_logo.svg" alt="">
+        </div>
+        <div class="result_alert_container">
+          <h3>Ningún mensaje fue encontrado</h3>
+          <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+        <div class="copy_container">
+          <input type="button" class="copy_button" value="Copiar">
+        </div>
+        <div class="result_text_container">
+          <p class="result"></p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <p class="copyright">&copy Sebastián Rodríguez Tencio</p>
+      <a href="https://github.com/sebasrt218" target="_blank" >
+        <img class="github_logo" src="img/github.png" alt="Github Logo">
+      </a>
+      <a href="https://www.linkedin.com/in/sebasti%C3%A1n-rodr%C3%ADguez-tencio-b070ab271/" target="_blank">
+        <img class="linkedin_logo" src="img/linkedin.png" alt="Linkedin Logo">
+      </a>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>

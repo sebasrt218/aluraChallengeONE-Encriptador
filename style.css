@@ -1,0 +1,246 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  padding-top: 20px;
+}
+
+.logo {
+  width: 100px;
+  vertical-align: middle;
+}
+
+.main_text {
+  margin-left: 5px;
+  font-size: 2em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+}
+
+main {
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_container {
+  position: absolute;
+  left: 100px;
+  top: 50px;
+  padding-left: 100px;
+  width: 1080px;
+  height: 600px;
+}
+
+.encripter_box {
+  width: 80%;
+  height: 100%;
+  padding-left: 30px;
+  padding-top: 20px;
+  cursor: pointer;
+  color: #0A3871;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+}
+
+.encripter_box::placeholder {
+  color: #0A3871;
+}
+
+.alert_container {
+  position: absolute;
+  top: 700px;
+  left: 200px;
+  display: flex;
+  color: #495057;
+}
+
+.alert_text {
+  padding-left: 5px;
+}
+
+.buttons_container {
+  position: absolute;
+  top: 730px;
+  height: 80px;
+  padding-left: 300px;
+  padding-top: 15px;
+}
+
+.encrypt_button {
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  background-color: #0A3871;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  border: none;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.encrypt_button:hover {
+  transform: scale(1.1); /* Ajusta el valor según el tamaño deseado */
+}
+
+.dencrypt_button {
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  background-color: #D8DFE8;
+  color: #0A3871;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  border: 1px solid #0A3871;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.dencrypt_button:hover {
+  transform: scale(1.1); /* Ajusta el valor según el tamaño deseado */
+}
+
+.result_section {
+  position: relative;
+  top: 50px;
+  width: 450px;
+  height: 625px;
+  right: 200px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+}
+
+.encripter_logo_container {
+  position: absolute;
+  left: 30px;
+  top: 50px;
+  box-sizing: border-box;
+  padding-top: 50px;
+}
+
+.result_alert_container {
+  position: relative;
+  box-sizing: border-box;
+  top: 450px;
+  left: 10px;
+}
+
+.result_alert_container h3 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  color: #343A40;
+}
+
+.result_alert_container p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #495057;
+  padding-top: 20px;
+}
+
+.copy_container {
+  display: flex;
+  position: absolute;
+  bottom: 400px;
+  top: 700px;
+  background-color: aqua;
+  padding-left: 40px;
+}
+
+.copy_button {
+  position: relative;
+  width: 328px;
+  height: 67px;
+  left: 20px;
+  bottom: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  color: #0A3871;
+  background-color: #ffffff;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.copy_button:hover {
+  transform: scale(1.1); /* Ajusta el valor según el tamaño deseado */
+}
+
+.result_text_container {
+  position: absolute;
+  font-size: 20px;
+  right: 10px;
+  bottom: 5px;
+  width: 450px;
+  height: 625px;
+  padding: 40px;
+  box-sizing: border-box;
+  margin-left: calc((100% - 450px) / 2 + 25px);
+  overflow-y: auto;
+}
+
+.result_text_container p {
+  color: #495057;
+  font-size: 25px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  background-color: #0A3871;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .copyright {
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 12px;
+  margin: 20px 20px;
+  vertical-align: middle;
+}
+
+footer .github_logo {
+  width: 30px; 
+  vertical-align: middle;
+}
+
+footer .linkedin_logo {
+  width: 30px; 
+  vertical-align: middle;
+}
+
+.hide {
+  display: none;
+}
